@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Exemplo Bootstrap</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #CEF6F5">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2ECCFA">
+    <img src="img/leão.png" style="width: 150px;">
+    <h2 class="text-center" style="font-family: harrington">Aslan</h2>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="Cadastro.html">Cadastro</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="Login.html">Login</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="Carrinho.html">Carrinho de Compras</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="Pagamento.html">Pagamento</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Áreas de Compra</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="Compra1.html">Livros</a>
+            <a class="dropdown-item" href="Compra2.html">Box de Séries</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container pt-3">
+      <form>
+        <img src="img/leão.png" style="width: 200px;" class=" mx-auto d-block">
+        <h2 class="text-center">Cadastre-se!</h2>
+        <div class="form-row pt-3">
+          <div class="col">
+            <h5>Nome</h5>
+            <input type="text" class="form-control" placeholder="Ex: Fulano">
+          </div>
+
+          <div class="col">
+            <h5>Sobrenome</h5>
+            <input type="text" class="form-control" placeholder="Ex: de Tal">
+          </div>
+        </div>
+
+        <div class="form-row pt-3">
+         <div class="col">
+          <h5>Email</h5>
+          <input type="email" class="form-control" placeholder="Ex: fulanodetal@seuemail.com">
+        </div>
+      </div>
+
+      <div class="form-row pt-3">
+        <div class="col">
+          <h5>Senha</h5>
+          <input type="password" class="form-control" placeholder="Senha">
+        </div>
+
+        <div class="col">
+          <h5>Confirme a Senha</h5>
+          <input type="password" class="form-control">
+        </div>
+      </div>
+
+      <div class="form-row pt-3">
+        <div class="col">
+          <h5>CPF</h5>
+          <input type="text" class="form-control" placeholder="Digite apenas números">
+        </div>
+
+        <div class="col">
+          <h5>RG</h5>
+          <input type="text" class="form-control" placeholder="Digite apenas números">
+        </div>
+
+        <div class="col">
+          <h5>Sexo</h5>
+          <select id="inputState" class="form-control">
+            <option selected>Escolha</option>
+            <option>Masculino</option>
+            <option>Feminino</option>
+          </select> 
+        </div>
+      </div> 
+
+      <div class="form-row pt-3">
+        <div class="col">
+          <h5>Data de Nascimento</h5>
+          <input type="text" class="form-control" placeholder="DD/MM/AA">
+        </div>
+
+        <div class="col">
+          <h5>Telefone</h5>
+          <input type="text" class="form-control" placeholder="Ex: (11) 33075-4123">
+        </div>
+
+        <div class="col">
+          <h5>Celular</h5>
+          <input type="text" class="form-control" placeholder="Ex: (11) 98745-4123">
+        </div>
+      </div> 
+      
+      <div class="form-row pt-3">
+        <div class="col">
+          <h5>Tipo de pessoa:</h5>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline1">Física</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline2">Jurídica</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline3">Estrangeiro</label>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <button type="button" class="btn btn-primary btn-lg btn-block mt-4">Enviar</button>
+    </form>
+
+    <div class="text-center pt-3">
+      <a href="Login.html" class="text-center">Já tem cadastro? Fazer Login</a><br>
+      <a href="#" class="text-center">Esqueceu a Senha?</a>
+    </div>
+
+  </div>
+
+
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="assets/js/vendor/jquery-slim.min.js"></script>
+      <script src="assets/js/vendor/popper.min.js"></script>
+      <script src="dist/js/bootstrap.min.js"></script>
+      <script src="assets/js/vendor/holder.min.js"></script>
+      <script>
+        Holder.addTheme('thumb', {
+          bg: '#55595c',
+          fg: '#eceeef',
+          text: 'Thumbnail'
+        });
+      </script>
+    </body>
+    </html>
